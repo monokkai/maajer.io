@@ -5,26 +5,48 @@ import { ToolItem } from "../components/ToolItem";
 
 const tools = [
   {
-    name: "MacBook Pro M1 Pro 16\"",
+    name: "Sony ZV-E10",
+    description: "Main camera for recoding video and taking photos.",
+    icon: "/camera.png",
+    href: "https://www.amazon.es/-/en/Sony-Mirrorless-Interchangeable-Real-Time-Autofocus/dp/B098LWQPRT",
+    label: "Buy",
+  },
+  {
+    name: "Sigma 18-50mm f/2.8 DC DN",
+    description:
+      "Main lense for ZV-E10 camera. Great price, quality and reviews",
+    icon: "/lense.png",
+    href: "https://www.amazon.de/18-50-F2-8-Contemporary-Sony-Objektivbajonett/dp/B09JVBB36L",
+    label: "Buy",
+  },
+  {
+    name: "K&F Concept 67",
+    description: "Tripod for ZV-E10 and other video-related devices.",
+    icon: "/tripod.png",
+    href: "https://www.amazon.com/Horizontal-Aluminum-T255A4-BH-28L-TM2515T1/dp/B07GKNYFSP",
+    label: "Buy",
+  },
+  {
+    name: "iPhone 17 Pro Max",
+    description: "Second machine for recording any moments. My EDC.",
+    icon: "/i3.webp",
+    href: "https://www.apple.com/es/iphone-17-pro/",
+    label: "Buy",
+  },
+  {
+    name: 'MacBook Pro M1 Pro 16"',
     description: "Main machine for development, design, and video editing.",
-    icon: "/tools/macbook.png",
+    icon: "/mac.png",
+    href: "https://www.amazon.es/macbook-pro-16-m1/s?k=macbook+pro+16+m1",
+    label: "Buy",
   },
   {
-    name: "Warp",
-    description: "Modern terminal with AI features and autocomplete.",
-    icon: "/tools/warp.png",
-    href: "https://www.warp.dev",
-  },
-  {
-    name: "NeoVim",
-    description: "Highly customizable editor for fast development workflows.",
-    icon: "/tools/neovim.png",
-    href: "https://neovim.io",
-  },
-  {
-    name: "Final Cut Pro X",
-    description: "Professional video editing for YouTube and creative projects.",
-    icon: "/tools/finalcut.png",
+    name: "DaVinci Resolve",
+    description:
+      "Video editing and post-production software for editing videos.",
+    icon: "/davi.png",
+    href: "https://www.blackmagicdesign.com/products/davinciresolve",
+    label: "Link",
   },
 ];
 
@@ -40,7 +62,7 @@ export default function GearPage() {
               Software and hardware I use daily.
             </p>
           </div>
-          <div className="flex flex-col divide-y divide-darkGray">
+          <div className="grid grid-cols-2 gap-3">
             {tools.map((tool) => (
               <ToolItem key={tool.name} {...tool} />
             ))}
