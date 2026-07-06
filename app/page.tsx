@@ -13,13 +13,12 @@ export default function Home() {
       <BasePage>
         <SectionBody>
           <div className="flex flex-col gap-4 max-w-xl">
-            <h1 className="text-2xl">What&apos;s Up, Im Egør!</h1>
+            <h1 className="text-2xl">What&apos;s Up, I&apos;m Egør!</h1>
             <p className="text-lightGray text-sm">
               A Software Engineer by day and a content creator by night.
             </p>
             <p className="text-lightGray text-sm">
-              I am a young Software Engineer with 1.5+ years of experience
-              building scalable, cloud-native applications and distributed
+              Building scalable, cloud-native applications and distributed
               systems. I focus on developing reliable backend services, APIs,
               and system architectures using modern technologies. My work
               emphasizes clean code, performance, reliability, and
@@ -27,7 +26,7 @@ export default function Home() {
               full-stack development.
             </p>
           </div>
-          <div className="flex text-sm gap-3">
+          <div className="flex flex-wrap text-sm gap-3">
             <SocialMediaButton
               href="https://www.youtube.com/@lydd2"
               text="YouTube"
@@ -43,8 +42,13 @@ export default function Home() {
               text="Discord"
               icon="/ds.webp"
             />
+            <SocialMediaButton
+              href="https://www.linkedin.com/in/igor-mayer-688614374/"
+              text="LinkedIn"
+              icon="/in.webp"
+            />
           </div>
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Skills />
             <div className="flex flex-col gap-8">
               <Bio />

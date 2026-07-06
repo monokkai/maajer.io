@@ -15,7 +15,7 @@ export default function Blog() {
       <BasePage>
         <div className="flex flex-col gap-4">
           <h1 className="text-lg">All Posts</h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {blogPosts.map((post, index) => (
               <motion.div
                 key={post.title}

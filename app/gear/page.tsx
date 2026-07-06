@@ -16,7 +16,7 @@ export default function GearPage() {
               Software and hardware I use daily.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {tools.map((tool) => (
               <ToolItem key={tool.name} {...tool} />
             ))}
