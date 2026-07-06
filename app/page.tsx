@@ -3,6 +3,7 @@ import { BlogCard } from "./components/Blog/card";
 import { Header } from "./components/header";
 import { SectionBody } from "./components/sectionBody";
 import { SocialMediaButton } from "./components/socialMediaButton";
+import { Skills } from "./components/Skills";
 
 export default function Home() {
   return (
@@ -38,15 +39,7 @@ export default function Home() {
               icon="/discord-icon.png"
             />
           </div>
-          {/* <div className="flex flex-col gap-4">
-            <h2 className="text-lg">Pinned posts</h2>
-            <BlogCard
-              title="M4 MacBook Pro - The Truth"
-              description="My experience with the M4 MacBook Pro 3 months later"
-              href="/blog/m4-macbook-pro"
-              image="/blog/m4-macbook-pro.jpg"
-            />
-          </div> */}
+          <Skills />
         </SectionBody>
       </BasePage>
     </>

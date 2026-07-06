@@ -5,12 +5,12 @@ export const blogPosts: Product[] = [
         title: "My Story",
         description: "How I went from a gaming addict to a programmer and a YouTuber",
         href: "/blog/my-story",
-        image: "/",
+        image: "/story.png",
     },
     {
         title: "Moving to Spain",
-        description: "Whole journey from Vilnius, Lithuania to Alicante, Spain.",
+        description: "Whole journey from Kaunas, Lithuania to Alicante, Spain.",
         href: "/blog/spain",
-        image: "/",
+        image: "/alicante.webp",
     },
 ];

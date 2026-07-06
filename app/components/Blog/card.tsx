@@ -7,21 +7,27 @@ import Image from "next/image";
 export const BlogCard = ({ title, description, href, image }: Product) => {
   const router = useRouter();
 
+  const hasImage = image && image !== "/";
+
   return (
     <a
-      className="aspect-w-16 aspect-h-9 relative block overflow-hidden rounded-lg shadow-lg group"
+      className="block overflow-hidden rounded-lg cursor-pointer group"
       onClick={() => router.push(href)}
     >
-      <Image
-        width={500}
-        height={500}
-        src={image}
-        alt={title}
-        className="object-cover w-full h-full transition-transform duration-300 ease-in-out transform group-hover:scale-105"
-      />
-      <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent w-full flex flex-col justify-end">
-        <h3 className="text-lg font-semibold text-white">{title}</h3>
-        <p className="text-sm text-gray-300">{description}</p>
+      {hasImage && (
+        <div className="relative h-[220px] w-full overflow-hidden">
+          <Image
+            width={800}
+            height={400}
+            src={image}
+            alt={title}
+            className="object-cover w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-105"
+          />
+        </div>
+      )}
+      <div className="bg-darkGray px-4 py-3">
+        <h3 className="text-sm font-semibold text-white">{title}</h3>
+        <p className="text-sm text-lightGray mt-0.5">{description}</p>
       </div>
     </a>
   );
