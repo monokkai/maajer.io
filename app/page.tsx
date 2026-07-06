@@ -1,9 +1,10 @@
 import { BasePage } from "./components/basePage";
-import { BlogCard } from "./components/Blog/card";
 import { Header } from "./components/header";
 import { SectionBody } from "./components/sectionBody";
 import { SocialMediaButton } from "./components/socialMediaButton";
 import { Skills } from "./components/Skills";
+import { Bio } from "./components/Bio";
+import { Interests } from "./components/Interests";
 
 export default function Home() {
   return (
@@ -17,29 +18,39 @@ export default function Home() {
               A Software Engineer by day and a content creator by night.
             </p>
             <p className="text-lightGray text-sm">
-              With programming I mostly focus on the backend / infra side of
-              things. Also, i do YouTube and make videos about my life as a
-              future Software Engineer here, in Spain.
+              I am a young Software Engineer with 1.5+ years of experience
+              building scalable, cloud-native applications and distributed
+              systems. I focus on developing reliable backend services, APIs,
+              and system architectures using modern technologies. My work
+              emphasizes clean code, performance, reliability, and
+              maintainability, with solid React and TypeScript skills for
+              full-stack development.
             </p>
           </div>
           <div className="flex text-sm gap-3">
             <SocialMediaButton
               href="https://www.youtube.com/@lydd2"
               text="YouTube"
-              icon="/youtube-icon.png"
+              icon="/yt.png"
             />
             <SocialMediaButton
               href="https://www.instagram.com/"
               text="Instagram"
-              icon="/instagram-icon.png"
+              icon="/ig.png"
             />
             <SocialMediaButton
               href="https://discord.gg/"
               text="Discord"
-              icon="/discord-icon.png"
+              icon="/ds.webp"
             />
           </div>
-          <Skills />
+          <div className="grid grid-cols-2 gap-8">
+            <Skills />
+            <div className="flex flex-col gap-8">
+              <Bio />
+              <Interests />
+            </div>
+          </div>
         </SectionBody>
       </BasePage>
     </>
