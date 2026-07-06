@@ -22,6 +22,13 @@ export const tools = [
         label: "Buy",
     },
     {
+        name: "K&F Concept 67DJI Mic",
+        description: "Microphone, that provides great quality of audio.",
+        icon: "/dji.png",
+        href: "https://store.dji.com/si/product/dji-mic?vid=109401",
+        label: "Buy",
+    },
+    {
         name: "iPhone 17 Pro Max",
         description: "Second machine for recording any moments. My EDC.",
         icon: "/i3.webp",
@@ -34,13 +41,5 @@ export const tools = [
         icon: "/mac.png",
         href: "https://www.amazon.es/macbook-pro-16-m1/s?k=macbook+pro+16+m1",
         label: "Buy",
-    },
-    {
-        name: "DaVinci Resolve",
-        description:
-            "Video editing and post-production software for editing videos.",
-        icon: "/davi.png",
-        href: "https://www.blackmagicdesign.com/products/davinciresolve",
-        label: "Link",
     },
 ];
