@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "./button";
 import Link from "next/link";
+import Image from "next/image";
 
 const links = [
   { text: "Home", href: "/" },
@@ -21,7 +22,7 @@ export const Navbar = () => {
     <>
       <nav className="flex w-[90%] md:w-[60%] justify-between items-center mt-4 mx-auto">
         <Link href="/" className="text-sm font-medium">
-          ME
+          <Image src={"/logo.png"} width={50} height={50} alt={"logo"} />
         </Link>
 
         {/* Desktop links */}
