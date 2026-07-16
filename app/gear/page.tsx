@@ -22,6 +22,8 @@ export default function GearPage() {
             ))}
           </div>
         </SectionBody>
+        <br />
+        <br />
         <SectionBody>
           <div className="flex flex-col gap-2">
             <h1 className="text-2xl">Future upgrades</h1>

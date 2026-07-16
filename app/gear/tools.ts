@@ -1,8 +1,7 @@
 export const tools = [
   {
     name: "K&F Concept 67",
-    description:
-      "Tripod for camera ZV-E10 / iPhone and other video-related devices.",
+    description: "Tripod for camera ZV-E10 / iPhone and other video-related devices.",
     icon: "/tripod.png",
     href: "https://www.amazon.com/Horizontal-Aluminum-T255A4-BH-28L-TM2515T1/dp/B07GKNYFSP",
     label: "Buy",
@@ -16,7 +15,7 @@ export const tools = [
   },
   {
     name: "iPhone 17 Pro Max",
-    description: "Second machine for recording any moments. My EDC.",
+    description: "12/256gb; second machine for recording any moments. My EDC.",
     icon: "/i3.webp",
     href: "https://www.apple.com/es/iphone-17-pro/",
     label: "Buy",
@@ -30,21 +29,19 @@ export const tools = [
   },
 ];
 
-
 export const futureTools = [
   {
     name: "Sony ZV-E10 II",
     description: "Main camera for recoding video and taking photos.",
     icon: "/camera.png",
-    href: "https://www.amazon.es/-/en/Sony-Mirrorless-Interchangeable-Real-Time-Autofocus/dp/B098LWQPRT",
+    href: "https://a.co/d/0do4MCgG",
     label: "Buy",
   },
   {
     name: "Sigma 18-50mm f/2.8 DC DN",
-    description:
-      "Main lense for ZV-E10 camera. Great price, quality and reviews",
+    description: "Main lense for ZV-E10 camera. Great price, quality and reviews",
     icon: "/lense.png",
-    href: "https://www.amazon.de/18-50-F2-8-Contemporary-Sony-Objektivbajonett/dp/B09JVBB36L",
+    href: "https://a.co/d/0iugzOcg",
     label: "Buy",
   },
 ]
