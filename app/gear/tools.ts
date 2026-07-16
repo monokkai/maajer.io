@@ -1,19 +1,4 @@
 export const tools = [
-  // {
-  //     name: "Sony ZV-E10",
-  //     description: "Main camera for recoding video and taking photos.",
-  //     icon: "/camera.png",
-  //     href: "https://www.amazon.es/-/en/Sony-Mirrorless-Interchangeable-Real-Time-Autofocus/dp/B098LWQPRT",
-  //     label: "Buy",
-  // },
-  // {
-  //     name: "Sigma 18-50mm f/2.8 DC DN",
-  //     description:
-  //         "Main lense for ZV-E10 camera. Great price, quality and reviews",
-  //     icon: "/lense.png",
-  //     href: "https://www.amazon.de/18-50-F2-8-Contemporary-Sony-Objektivbajonett/dp/B09JVBB36L",
-  //     label: "Buy",
-  // },
   {
     name: "K&F Concept 67",
     description:
@@ -44,3 +29,22 @@ export const tools = [
     label: "Buy",
   },
 ];
+
+
+export const futureTools = [
+  {
+    name: "Sony ZV-E10 II",
+    description: "Main camera for recoding video and taking photos.",
+    icon: "/camera.png",
+    href: "https://www.amazon.es/-/en/Sony-Mirrorless-Interchangeable-Real-Time-Autofocus/dp/B098LWQPRT",
+    label: "Buy",
+  },
+  {
+    name: "Sigma 18-50mm f/2.8 DC DN",
+    description:
+      "Main lense for ZV-E10 camera. Great price, quality and reviews",
+    icon: "/lense.png",
+    href: "https://www.amazon.de/18-50-F2-8-Contemporary-Sony-Objektivbajonett/dp/B09JVBB36L",
+    label: "Buy",
+  },
+]
