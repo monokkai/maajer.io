@@ -45,7 +45,7 @@ export default function Home() {
             <SocialMediaButton
               href="https://github.com/monokkai"
               text="GitHub"
-              icon="/gh.svg"
+              icon="/gh-2.png"
             />
             {/* <SocialMediaButton
               href="https://www.linkedin.com/in/igor-mayer-688614374/"
