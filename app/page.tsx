@@ -43,10 +43,15 @@ export default function Home() {
               icon="/ds.webp"
             />
             <SocialMediaButton
+              href="https://github.com/monokkai"
+              text="GitHub"
+              icon="/gh.svg"
+            />
+            {/* <SocialMediaButton
               href="https://www.linkedin.com/in/igor-mayer-688614374/"
               text="LinkedIn"
               icon="/in.webp"
-            />
+            /> */}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Skills />

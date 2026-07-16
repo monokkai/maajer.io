@@ -25,7 +25,6 @@ export const Navbar = () => {
           <Image src={"/logo.png"} width={50} height={50} alt={"logo"} />
         </Link>
 
-        {/* Desktop links */}
         <div className="hidden md:flex gap-1 flex-nowrap">
           {links.map((l) => (
             <Button
@@ -37,7 +36,6 @@ export const Navbar = () => {
           ))}
         </div>
 
-        {/* Burger button */}
         <button
           className="md:hidden flex flex-col gap-1.5 p-2 cursor-pointer"
           onClick={() => setOpen((o) => !o)}
@@ -58,7 +56,6 @@ export const Navbar = () => {
         </button>
       </nav>
 
-      {/* Mobile menu */}
       <AnimatePresence>
         {open && (
           <motion.div
