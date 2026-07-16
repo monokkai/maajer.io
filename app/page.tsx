@@ -13,7 +13,7 @@ export default function Home() {
       <BasePage>
         <SectionBody>
           <div className="flex flex-col gap-4 max-w-xl">
-            <h1 className="text-2xl">What&apos;s Up, I&apos;m Egør!</h1>
+            <h1 className="text-2xl">¡Hola, I&apos;m Egør!</h1>
             <p className="text-lightGray text-sm">
               A Software Engineer by day and a content creator by night.
             </p>
