@@ -10,7 +10,7 @@ const timeline = [
   },
   {
     year: "2026",
-    text: "Moved to Alicante, Spain 🇪🇸 to start my profeccional career as a Sofware Engineer. ",
+    text: "Moved to Alicante, Spain 🇪🇸 to start my profeccional career as a Sofware Engineer & to get a higher education in Spanish Uni.",
   },
 ];
 
