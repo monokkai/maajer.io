@@ -21,7 +21,7 @@ export default function Spain() {
             Moving to Spain
           </motion.h1>
           <motion.p className="text-lightGray text-sm" {...fade(0.15)}>
-            From Kaunas, Lithuania to Alicante, Spain — the whole journey.
+            From Kaunas, Lithuania to Alicante, Spain - the whole journey.
           </motion.p>
         </div>
 
@@ -34,8 +34,8 @@ export default function Spain() {
         </motion.p>
 
         <motion.p className="text-sm leading-relaxed" {...fade(0.25)}>
-          The move wasn&apos;t simple. We packed up everything from Kaunas —
-          years of life into boxes — and made the drive south. Lithuania to
+          The move wasn&apos;t simple. We packed up everything from Kaunas -
+          years of life into boxes - and made the drive south. Lithuania to
           Spain is not a short trip. Long highways, border crossings, rest stops
           in the middle of nowhere. But every kilometer felt intentional.
         </motion.p>
@@ -65,7 +65,7 @@ export default function Spain() {
           className="text-sm leading-relaxed text-lightGray"
           {...fade(0.45)}
         >
-          If you&apos;re ever thinking about a big move — just do it. The worst
+          If you&apos;re ever thinking about a big move - just do it. The worst
           case is you come back. The best case is you find where you belong.
           ¡Buena suerte!
         </motion.p>

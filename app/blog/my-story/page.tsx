@@ -19,7 +19,7 @@ export default function MyStory() {
       <motion.div className="flex flex-col gap-6" {...fade(0)}>
         <div className="flex flex-col gap-2">
           <motion.p className="text-lightGray text-sm" {...fade(0.05)}>
-            2026
+            2008 - 2026
           </motion.p>
           <motion.h1 className="text-2xl font-semibold" {...fade(0.1)}>
             My Story

@@ -12,7 +12,7 @@ export const SocialMediaButton = ({
   icon,
 }: SocialMediaButtonProps) => {
   return (
-    <div className="flex gap-1 items-center text-primary relative rounded-lg px-3 py-2 text-sm transition-colors bg-darkGray">
+    <div className="flex gap-1 items-center text-primary relative rounded-lg px-3 py-2 text-sm transition-colors bg-darkGray hover:bg-lightGray">
       <a href={href}>{text}</a>
       <Image className="w-3 h-3" alt="icon" src={icon} width={30} height={30} />
     </div>
