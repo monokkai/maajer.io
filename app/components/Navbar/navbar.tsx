@@ -27,7 +27,12 @@ export const Navbar = () => {
         {/* Desktop links */}
         <div className="hidden md:flex gap-1 flex-nowrap">
           {links.map((l) => (
-            <Button key={l.href} text={l.text} href={l.href} isActive={currentPath === l.href} />
+            <Button
+              key={l.href}
+              text={l.text}
+              href={l.href}
+              isActive={currentPath === l.href}
+            />
           ))}
         </div>
 
