@@ -33,7 +33,7 @@ export default function Home() {
               icon="/yt.png"
             />
             <SocialMediaButton
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/dimaajer0"
               text="Instagram"
               icon="/ig.png"
             />
