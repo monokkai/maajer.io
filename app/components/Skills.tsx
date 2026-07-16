@@ -2,7 +2,7 @@
 
 const skills = [
   { name: "TypeScript", level: "Experienced" },
-  { name: "Nest.js", level: "Experienced" },
+  { name: "Nest.js (Node.js)", level: "Experienced" },
   { name: "Python", level: "Intermediate" },
   { name: "AWS", level: "Basic" },
   { name: "Kubernetes", level: "Basic" },
