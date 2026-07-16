@@ -1,7 +1,8 @@
 export const tools = [
   {
     name: "K&F Concept 67",
-    description: "Tripod for camera ZV-E10 / iPhone and other video-related devices.",
+    description:
+      "Tripod for camera ZV-E10 / iPhone and other video-related devices.",
     icon: "/tripod.png",
     href: "https://www.amazon.com/Horizontal-Aluminum-T255A4-BH-28L-TM2515T1/dp/B07GKNYFSP",
     label: "Buy",
@@ -39,9 +40,10 @@ export const futureTools = [
   },
   {
     name: "Sigma 18-50mm f/2.8 DC DN",
-    description: "Main lense for ZV-E10 camera. Great price, quality and reviews",
+    description:
+      "Main lense for ZV-E10 camera. Great price, quality and reviews",
     icon: "/lense.png",
     href: "https://a.co/d/0iugzOcg",
     label: "Buy",
   },
-]
+];

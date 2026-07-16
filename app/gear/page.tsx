@@ -26,7 +26,7 @@ export default function GearPage() {
         <br />
         <SectionBody>
           <div className="flex flex-col gap-2">
-            <h1 className="text-2xl">Future upgrades</h1>
+            <h1 className="text-2xl">Future gear upgrades</h1>
             <p className="text-lightGray text-sm">
               Gear I&apos;d like to buy in the future once my channel grows :)
             </p>
