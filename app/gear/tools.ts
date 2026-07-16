@@ -23,7 +23,7 @@ export const tools = [
     label: "Buy",
   },
   {
-    name: "K&F Concept 67DJI Mic",
+    name: "DJI Mic",
     description: "Microphone, that provides great quality of audio.",
     icon: "/dji.png",
     href: "https://store.dji.com/si/product/dji-mic?vid=109401",
