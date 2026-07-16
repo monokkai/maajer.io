@@ -6,7 +6,13 @@ interface WorkItemProps {
   tags?: string[];
 }
 
-export const WorkItem = ({ name, description, href, status, tags }: WorkItemProps) => {
+export const WorkItem = ({
+  name,
+  description,
+  href,
+  status,
+  tags,
+}: WorkItemProps) => {
   return (
     <div className="flex items-start justify-between gap-4 py-3">
       <div className="flex-1 min-w-0">

@@ -22,10 +22,12 @@
 ### Task 1: Move `app/` to `src/app/` and update the path alias
 
 **Files:**
+
 - Move: `app/` → `src/app/` (via `git mv`, preserves history for `favicon.ico`, `globals.css`, `layout.tsx`, `page.tsx`)
 - Modify: `tsconfig.json`
 
 **Interfaces:**
+
 - Produces: `src/app/` as the App Router root (Next.js auto-detects this — no `next.config.ts` change needed). All later tasks add files under `src/app/`.
 - Produces: path alias `@/*` resolves to `./src/*`, so later tasks can `import { X } from "@/app/..."`.
 
@@ -76,11 +78,13 @@ git commit -m "Move app/ to src/app/ and update path alias"
 ### Task 2: Add Navbar shell component and shared types file
 
 **Files:**
+
 - Create: `src/app/components/Navbar/navbar.tsx`
 - Create: `src/app/types.ts`
 - Modify: `src/app/layout.tsx`
 
 **Interfaces:**
+
 - Consumes: path alias `@/*` → `./src/*` from Task 1.
 - Produces: `Navbar` named export from `src/app/components/Navbar/navbar.tsx`, rendered in `RootLayout`. Later feature work adds sibling folders under `src/app/components/` following this same `<Feature>/<file>.tsx` pattern.
 - Produces: `src/app/types.ts` as the landing spot for shared types (currently empty, exports nothing).
@@ -186,6 +190,7 @@ git commit -m "Add Navbar shell component and shared types file"
 ### Task 3: Add Prettier and pin the Node version
 
 **Files:**
+
 - Modify: `package.json`
 - Modify: `eslint.config.mjs`
 - Create: `.prettierrc`
@@ -193,6 +198,7 @@ git commit -m "Add Navbar shell component and shared types file"
 - Create: `.nvmrc`
 
 **Interfaces:**
+
 - Consumes: nothing from Tasks 1–2 (independent of the restructure).
 - Produces: `npm run format` / `npm run format:check` scripts usable going forward.
 
