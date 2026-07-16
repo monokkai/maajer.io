@@ -7,21 +7,21 @@ export const works = [
     tags: ["TypeScript", "React", "Library"],
   },
   {
-    name: "DevSecOps cli tool",
+    name: "DevSecOps CLI Tool",
     description:
       "Fast Rust-powered CLI for git workflows, Docker container management, security scanning, JWT generation, and HTTP requests — all in one tool.",
     href: "https://github.com/monokkai/cli",
     tags: ["Rust", "Terminal", "CLI"],
   },
   {
-    name: "Go & C++ metrics pipeline",
+    name: "Go & C++ Metrics Pipeline",
     description:
       "Distributed metrics processing pipeline built with Go and C++. Go service handles API and orchestration, while C++ worker performs compute-heavy metric aggregation. Fully containerized with Docker, deployed on Kubernetes, and integrated with Prometheus for observability.",
     href: "https://github.com/monokkai/go-cpp-metrics-pipeline",
     tags: ["Go", "C++", "Docker", "Kubernetes", "Prometheus"],
   },
   {
-    name: "E2E Tickets Sell App",
+    name: "E2E Tickets Selling App",
     description:
       "Full-stack ticketing platform for concerts and sports events.",
     href: "https://github.com/monokkai/e2e-tickets",
