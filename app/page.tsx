@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap text-sm gap-3">
             <SocialMediaButton
-              href="https://www.youtube.com/@lydd2"
+              href="https://www.youtube.com/@maajer0"
               text="YouTube"
               icon="/yt.png"
             />
