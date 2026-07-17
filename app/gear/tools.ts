@@ -2,7 +2,7 @@ export const tools = [
   {
     name: "K&F Concept 67",
     description:
-      "Tripod for camera ZV-E10 / iPhone and other video-related devices.",
+      "Tripod for camera / iPhone and other video devices.",
     icon: "/tripod.png",
     href: "https://www.amazon.com/Horizontal-Aluminum-T255A4-BH-28L-TM2515T1/dp/B07GKNYFSP",
     label: "Buy",
