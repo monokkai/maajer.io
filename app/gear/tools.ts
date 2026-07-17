@@ -41,7 +41,7 @@ export const futureTools = [
   {
     name: "Sigma 18-50mm f/2.8 DC DN",
     description:
-      "Main lense for ZV-E10 camera. Great price, quality and reviews",
+      "Main lense for ZV-E10 camera. Great price, quality and reviews.",
     icon: "/lense.png",
     href: "https://a.co/d/0iugzOcg",
     label: "Buy",
