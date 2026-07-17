@@ -16,14 +16,14 @@ export const tools = [
   },
   {
     name: "iPhone 17 Pro Max",
-    description: "12/256gb; second machine for recording any moments. My EDC.",
+    description: "12/256gb; second machine for recording any moments. My every day carry (EDC).",
     icon: "/i3.webp",
     href: "https://www.apple.com/es/iphone-17-pro/",
     label: "Buy",
   },
   {
     name: 'MacBook Pro M1 Pro 16"',
-    description: "Main machine for development. 16GB of RAM and 1TB SSD",
+    description: "Main machine for development. 16GB of RAM and 1TB SSD.",
     icon: "/mac.png",
     href: "https://www.amazon.es/macbook-pro-16-m1/s?k=macbook+pro+16+m1",
     label: "Buy",
