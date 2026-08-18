@@ -1,11 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-
 import { Header } from "../components/header";
 import { BasePage } from "../components/basePage";
 import { BlogCard } from "../components/Blog/card";
-
 import { blogPosts } from "./assets";
 
 export default function Blog() {
