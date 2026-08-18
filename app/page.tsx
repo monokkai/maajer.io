@@ -1,3 +1,4 @@
+"use client"
 import { BasePage } from "./components/basePage";
 import { Header } from "./components/header";
 import { SectionBody } from "./components/sectionBody";
@@ -5,6 +6,7 @@ import { SocialMediaButton } from "./components/socialMediaButton";
 import { Skills } from "./components/Skills";
 import { Bio } from "./components/Bio";
 import { Interests } from "./components/Interests";
+import { motion } from "motion/react"
 
 export default function Home() {
   return (
@@ -13,7 +15,7 @@ export default function Home() {
       <BasePage>
         <SectionBody>
           <div className="flex flex-col gap-4 max-w-xl">
-            <h1 className="text-2xl">¡Hola, I&apos;m Egør!</h1>
+            <h1 className="text-2xl">¡Hello, I&apos;m Egør!</h1>
             <p className="text-lightGray text-sm">
               A Software Engineer by day and a content creator by night.
             </p>
