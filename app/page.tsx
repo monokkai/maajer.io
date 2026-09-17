@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { BasePage } from "./components/basePage";
 import { Header } from "./components/header";
 import { SectionBody } from "./components/sectionBody";
@@ -6,7 +6,6 @@ import { SocialMediaButton } from "./components/socialMediaButton";
 import { Skills } from "./components/Skills";
 import { Bio } from "./components/Bio";
 import { Interests } from "./components/Interests";
-import { motion } from "motion/react"
 
 export default function Home() {
   return (

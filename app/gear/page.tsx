@@ -1,6 +1,7 @@
 import { BasePage } from "../components/basePage";
 import { Header } from "../components/header";
 import { SectionBody } from "../components/sectionBody";
+import ThemeToggleButton from "../components/themeToggleButton";
 import { ToolItem } from "../components/ToolItem";
 import { tools, futureTools } from "./tools";
 
@@ -37,6 +38,8 @@ export default function GearPage() {
             ))}
           </div>
         </SectionBody>
+
+        <ThemeToggleButton />
       </BasePage>
     </>
   );
