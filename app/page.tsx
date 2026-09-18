@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex flex-col gap-4 max-w-xl">
             <h1 className="text-2xl">¡Hi folks, I&apos;m Egør!</h1>
             <p className="text-lightGray text-sm">
-              A Software Engineer by day and a content creator by night.
+              A Full-Stack Mobile Engineer by day and a content creator by night.
             </p>
             <p className="text-lightGray text-sm">
               Full-stack Mobile Engineer focused on native iOS (UIKit / SwiftUI) and Android
