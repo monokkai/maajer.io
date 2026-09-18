@@ -14,17 +14,16 @@ export default function Home() {
       <BasePage>
         <SectionBody>
           <div className="flex flex-col gap-4 max-w-xl">
-            <h1 className="text-2xl">¡Hello, I&apos;m Egør!</h1>
+            <h1 className="text-2xl">¡Hi folks, I&apos;m Egør!</h1>
             <p className="text-lightGray text-sm">
               A Software Engineer by day and a content creator by night.
             </p>
             <p className="text-lightGray text-sm">
-              Building scalable, cloud-native applications and distributed
-              systems. I focus on developing reliable backend services, APIs,
-              and system architectures using modern technologies. My work
-              emphasizes clean code, performance, reliability, and
-              maintainability, with solid React and TypeScript skills for
-              full-stack development.
+              Full-stack Mobile Engineer focused on native iOS (UIKit / SwiftUI) and Android
+              (Kotlin), with backend expertise in Go, Rust, and AWS. I build reliable,
+              production-ready apps and services - from native mobile experiences to scalable APIs
+              and cloud infrastructure. Clean code, performance, and maintainability across the full
+              stack.
             </p>
           </div>
           <div className="flex flex-wrap text-sm gap-3">
@@ -38,16 +37,8 @@ export default function Home() {
               text="Instagram"
               icon="/ig.png"
             />
-            <SocialMediaButton
-              href="https://discord.gg/"
-              text="Discord"
-              icon="/ds.webp"
-            />
-            <SocialMediaButton
-              href="https://github.com/monokkai"
-              text="GitHub"
-              icon="/gh-2.png"
-            />
+            <SocialMediaButton href="https://discord.gg/" text="Discord" icon="/ds.webp" />
+            <SocialMediaButton href="https://github.com/monokkai" text="GitHub" icon="/gh-2.png" />
             {/* <SocialMediaButton
               href="https://www.linkedin.com/in/igor-mayer-688614374/"
               text="LinkedIn"
